@@ -1,0 +1,27 @@
+# Set your GitHub username and repo name
+$USERNAME = "your-github-username"
+$REPO_NAME = "your-repo-name"
+$TOKEN = "your-github-personal-access-token"  # Required for API access
+
+# List of topics (max 20)
+$TOPICS = @(
+    "civictech", "socialgood", "opensource", "sustainability", "community",
+    "ai", "machinelearning", "gpt", "artificialintelligence", "nlp",
+    "streamlit", "python", "quantumcomputing", "foodsecurity", "unemployment",
+    "accessibility", "smartcities", "healthtech", "greenenergy", "phdresearch"
+)
+
+# Convert topics to JSON format
+$JSON_BODY = @{ names = $TOPICS } | ConvertTo-Json
+
+# Send API request to update topics
+Invoke-RestMethod -Uri "https://api.github.com/repos/$USERNAME/$REPO_NAME/topics" `
+    -Method Put `
+    -Headers @{ 
+        "Authorization" = "Bearer $TOKEN"
+        "Accept" = "application/vnd.github.mercy-preview+json" 
+    } `
+    -Body $JSON_BODY `
+    -ContentType "application/json"
+
+Write-Host "✅ Topics added successfully!"
