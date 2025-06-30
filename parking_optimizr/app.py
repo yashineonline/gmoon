@@ -23,22 +23,3 @@ if st.button("Find Parking"):
     else:
         st.warning("No nearby parking spots found within the selected distance.")
 
-### HumanPlus-Platform/parking_optimizr/utils/match_logic.py
-from geopy.distance import geodesic
-
-def find_nearby_spots(user_lat, user_lon, data, max_km=1.0):
-    results = []
-    for spot in data:
-        dist = geodesic((user_lat, user_lon), (spot['lat'], spot['lon'])).km
-        if dist <= max_km:
-            results.append({"name": spot['name'], "fee": spot['fee'], "distance": dist})
-    results.sort(key=lambda x: x["distance"])
-    return results
-
-### HumanPlus-Platform/parking_optimizr/data/sample_parking_spots.json
-[
-  {"name": "GreenLot A", "lat": 43.4643, "lon": -80.5204, "fee": "$3/hr"},
-  {"name": "Solar Park B", "lat": 43.4650, "lon": -80.5182, "fee": "$2/hr"},
-  {"name": "FreeCycle Garage", "lat": 43.4665, "lon": -80.5210, "fee": "Free with pedal energy"},
-  {"name": "EV Share Spot", "lat": 43.4630, "lon": -80.5195, "fee": "$1/hr"}
-]
