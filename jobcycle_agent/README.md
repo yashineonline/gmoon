@@ -2,11 +2,15 @@
 
 ### 🗂️ Folder Structure
 
+```
 HumanPlus-Platform/
 ├── jobcycle_agent/
-│   ├── app.py                  
-│   ├── langgraph_config.py     
-│   └── agentic_workflow.py     
+│   ├── app.py     
+│   ├── langgraph_config.py
+│   └── agentic_workflow.py
+│   └── requirements.txt
+│   └── README.md
+```
 
 ### 🔧 A simple LangGraph node flow
 
