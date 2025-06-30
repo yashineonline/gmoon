@@ -1,4 +1,4 @@
-### HumanPlus-Platform/parking_optimizr/data/sample_parking_spots.json
+
 [
   {"name": "GreenLot A", "lat": 43.4643, "lon": -80.5204, "fee": "$3/hr"},
   {"name": "Solar Park B", "lat": 43.4650, "lon": -80.5182, "fee": "$2/hr"},
