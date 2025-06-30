@@ -36,6 +36,95 @@ painterconnect/
 
 ---
 
+## 📄 client_app.py
+```python
+import streamlit as st
+import json
+from utils.storage import save_job
+
+st.title("🔧 Need a Car Painter?")
+
+name = st.text_input("Your Shop Name")
+car = st.text_input("Car Make & Model")
+date = st.date_input("Preferred Date")
+time = st.time_input("Preferred Time")
+contact = st.text_input("Your Email or Phone")
+
+if st.button("Submit Request"):
+    job = {
+        "shop": name,
+        "car": car,
+        "date": str(date),
+        "time": str(time),
+        "contact": contact
+    }
+    save_job(job)
+    st.success("🎉 Request submitted! The painter will contact you shortly.")
+```
+
+---
+
+## 📄 painter_app.py
+```python
+import streamlit as st
+from utils.storage import load_jobs
+
+st.title("🎨 Painter Dashboard")
+st.subheader("Incoming Job Requests")
+
+jobs = load_jobs()
+
+if not jobs:
+    st.info("No new requests yet.")
+else:
+    for i, job in enumerate(jobs):
+        with st.expander(f"Job #{i+1} - {job['shop']}"):
+            st.write(f"Car: {job['car']}")
+            st.write(f"Date: {job['date']}")
+            st.write(f"Time: {job['time']}")
+            st.write(f"Contact: {job['contact']}")
+            st.button("Accept", key=f"accept_{i}")
+```
+
+---
+
+## 📄 utils/storage.py
+```python
+import json
+import os
+
+DATA_PATH = "data/jobs.json"
+
+def load_jobs():
+    if not os.path.exists(DATA_PATH):
+        return []
+    with open(DATA_PATH, 'r') as f:
+        return json.load(f)
+
+def save_job(job):
+    jobs = load_jobs()
+    jobs.append(job)
+    with open(DATA_PATH, 'w') as f:
+        json.dump(jobs, f, indent=2)
+```
+
+---
+
+## 📄 data/jobs.json
+```json
+[]
+```
+
+---
+
+## 📦 requirements.txt
+```
+streamlit
+```
+
+---
+
+
 ## ⚙️ How to Run Locally
 ```bash
 git clone https://github.com/your-username/PainterConnect-MVP.git
@@ -51,10 +140,11 @@ streamlit run client_app.py
 
 ---
 
-## 📱 How Shops Access It
-- Deploy `client_app.py` via [Streamlit Cloud](https://share.streamlit.io) or `ngrok`
-- Generate a QR code with the public link
-- Shop scans QR → Opens form → Submits → Painter gets notified
+## 📦 requirements.txt
+```
+streamlit
+geopy
+```
 
 ---
 
@@ -67,11 +157,18 @@ streamlit run client_app.py
 
 ---
 
-## 📦 requirements.txt
-```
-streamlit
-geopy
-```
+
+## 📱 How Shops Access It
+- Deploy `client_app.py` via [Streamlit Cloud](https://share.streamlit.io) or `ngrok`
+- Generate a QR code with the public link
+- Shop scans QR → Opens form → Submits → Painter gets notified
+
+---
+
+## 📱 How Shops Access It
+- Deploy `client_app.py` via [Streamlit Cloud](https://share.streamlit.io) or `ngrok`
+- Generate a QR code with the public link
+- Shop scans QR → Opens form → Submits → Painter gets notified
 
 ---
 
@@ -92,4 +189,6 @@ All job requests stay private. Add your own Firebase config or use local-only mo
 
 ---
 
-## 🧠 Maintained by: Yashine Goolam Hossen (Waterloo, Canada)
+🧠 Maintained by: Hazmatally (Waterloo, Canada)
+🧠 Concept from: Aman (Barrie, Canada)
+
