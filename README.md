@@ -70,12 +70,12 @@ See [roadmap.md](./roadmap.md) for full progression plan.
 Use the [CivicSolver](./civic_solver) module to submit your idea.
 Let AI + people generate the solution.
 
-## 🙌 Built by Yashine Goolam Hossen – Waterloo, Canada
+## 🙌 Built by Yashine Hazmatally Goolam Hossen – Waterloo, Canada
 Join us in building the next chapter of planetary healing.
 
 ---
 
-## 🌐 Contact: [Your LinkedIn, email, or GitHub profile here]
+## 🌐 Contact: [(https://www.linkedin.com/in/hazmatally/)]
 
 ---
 
