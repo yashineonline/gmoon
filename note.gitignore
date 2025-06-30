@@ -1,0 +1,24 @@
+run the following:
+
+streamlit run foodcycle_ai/app.py
+
+Add screenshots of the app running to the README
+
+Use a streamlit.io or Hugging Face Spaces demo (optional)
+
+Tag your repo with #streamlit, #openai, #gpt, #civictech
+
+Once pushed to GitHub, you can show recruiters or founders:
+
+“You can clone this and run streamlit run app.py right now.”
+
+Add a small image or gif showing the MVP in action:
+
+![App Screenshot](./screenshots/parkoptimizr_demo.png)
+Or host a short Loom/video link or Streamlit Cloud link for live demo:
+
+Live Demo on Streamlit Cloud
+
+in requirements.txt for human-plus-platform
+folium or leaflet.js (via frontend) → if you want map rendering
+

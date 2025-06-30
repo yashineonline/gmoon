@@ -1,12 +1,10 @@
-
 [
   {"name": "GreenLot A", "lat": 43.4643, "lon": -80.5204, "fee": "$3/hr"},
   {"name": "Solar Park B", "lat": 43.4650, "lon": -80.5182, "fee": "$2/hr"},
   {"name": "FreeCycle Garage", "lat": 43.4665, "lon": -80.5210, "fee": "Free with pedal energy"},
-  {"name": "EV Share Spot", "lat": 43.4630, "lon": -80.5195, "fee": "$1/hr"}
-],
+  {"name": "EV Share Spot", "lat": 43.4630, "lon": -80.5195, "fee": "$1/hr"},
 
-[
+
   {
     "id": 1,
     "address": "123 King St W",

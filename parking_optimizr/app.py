@@ -4,7 +4,7 @@ import json
 from utils.match_logic import find_nearby_spots
 
 # Load sample data
-with open("data/sample_parking_spots.json", "r") as f:
+with open("parking_optimizr/data/sample_parking_spots.json", "r") as f:
     parking_data = json.load(f)
 
 st.set_page_config(page_title="ParkOptimizr", layout="centered")
