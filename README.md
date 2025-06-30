@@ -1,6 +1,5 @@
-# human-plus-platform
+### human-plus-platform/README.md
 
-### HumanPlus-Platform/README.md
 # 🌍 HumanPlus Platform: A Living Thesis to Regenerate the World
 
 > A unified platform of community-powered AI solutions tackling food insecurity, unemployment, accessibility, sustainable mobility, civic resilience, and quantum-age education. 
