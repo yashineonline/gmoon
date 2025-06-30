@@ -14,6 +14,7 @@ HumanPlus-Platform/
 
 ### 🔧 A simple LangGraph node flow
 
+```python
 [Start]
    ↓
 [Collect Profile Info]
@@ -23,6 +24,7 @@ HumanPlus-Platform/
 [LangChain Agent: Job Matcher]
    ↓
 [Output: Job Suggestions + Links + Score]
+```
 
 ---
 
