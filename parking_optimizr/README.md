@@ -165,3 +165,11 @@ pip install streamlit
 ## 📫 Contact & Contribute
 Join the HumanPlus platform and help optimize urban life.
 
+## Extra Notes
+
+| Function            | Purpose                  | Filters On                                      | Returns                                  | Use Case                                               |
+| ------------------- | ------------------------ | ----------------------------------------------- | ---------------------------------------- | ------------------------------------------------------ |
+| `find_nearby_spots` | Geospatial filter        | Latitude/longitude + max km radius              | Spots within a radius sorted by distance | Best for quick searches based on proximity             |
+| `find_best_spots`   | Preference-based ranking | Day availability, free/paid, pedal-power option | Spots sorted by price per hour           | Best for user preferences and special feature matching |
+
+
