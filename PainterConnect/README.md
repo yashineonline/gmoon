@@ -25,6 +25,7 @@ A two-app system:
 painterconnect/
 ├── painter_app.py
 ├── client_app.py
+├── client_qr.py 
 ├── utils/
 │   ├── schedule.py       # painter availability & conflict check
 │   └── storage.py        # load/save requests to JSON or Firebase
@@ -120,6 +121,8 @@ def save_job(job):
 ## 📦 requirements.txt
 ```
 streamlit
+qrcode
+
 ```
 
 ---
