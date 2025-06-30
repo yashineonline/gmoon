@@ -125,6 +125,28 @@ for r in results:
 
 ---
 
+## 🚀 How to Run This MVP Locally
+# Step 1: Clone the repo
+git clone https://github.com/your-username/HumanPlus-Platform.git
+cd HumanPlus-Platform/parking_optimizr
+
+# Step 2: (Optional but recommended) Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+
+# Step 3: Install dependencies
+pip install -r ../requirements.txt  # Or a local requirements.txt if one exists
+
+# Step 4: Run the app
+streamlit run app.py
+
+##💡 Note: You must have Python 3.9+ and Streamlit installed. If not:
+
+pip install streamlit
+
+
+
+
 ## 🤝 Who Gains
 - Landowners with unused space
 - Electric car/scooter/bike users
