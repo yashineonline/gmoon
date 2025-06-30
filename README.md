@@ -68,6 +68,8 @@ Replace [mvp_folder] with the name of the MVP you want to run, e.g. foodcycle_ai
 ## 🛤️ Roadmap
 See [roadmap.md](./roadmap.md) for full progression plan.
 
+---
+
 ## 🧪 Want to contribute a local problem?
 Use the [CivicSolver](./civic_solver) module to submit your idea.
 Let AI + people generate the solution.
@@ -77,7 +79,7 @@ Join us in building the next chapter of planetary healing.
 
 ---
 
-## 🌐 Contact: [(https://www.linkedin.com/in/hazmatally/)]
+## 🌐 Contact: https://www.linkedin.com/in/hazmatally/
 
 ---
 
