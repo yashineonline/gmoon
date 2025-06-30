@@ -3,7 +3,7 @@
 ### HumanPlus-Platform/README.md
 # 🌍 HumanPlus Platform: A Living Thesis to Regenerate the World
 
-> A unified platform of community-powered AI solutions tackling food insecurity, unemployment, accessibility, sustainable mobility, civic resilience, and quantum-age education.
+> A unified platform of community-powered AI solutions tackling food insecurity, unemployment, accessibility, sustainable mobility, civic resilience, and quantum-age education. 
 
 ---
 
@@ -81,35 +81,6 @@ Join us in building the next chapter of planetary healing.
 
 ---
 
-### medicfind/README.md
-# 🩺 MedicFind: Rare Medical Needs Matcher
-
-## 💡 Problem
-- People struggle to find rare meds, devices, and chronic care tools
-- Pharmacies lack discoverability
-- NGOs, donors, and suppliers lack real-time requests
-
-## 🛠️ MVP Features
-- Search bar to input medicine/device name
-- Real-time search of fake/mock dataset (expandable to real APIs)
-- Connects users to:
-  - Pharmacies
-  - Volunteers
-  - NGOs
-  - Suppliers
-
-## 🧪 Stack
-- Streamlit
-- SQLite or Firebase
-- JSON mock DB or real MedNexus API
-
-## 🌱 Expansion Ideas
-- Donate/request channel
-- Emergency broadcast mode
-- Chronic care assistant
-- Hospital admin module
-
----
 
 
 
