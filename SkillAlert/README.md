@@ -148,6 +148,29 @@ streamlit
 geopy
 ```
 
+## ✅ Why GPT Might Be Useful in SkillAlert
+Adding GPT (or any LLM) is not required but can supercharge the app by making it:
+
+### 1. Human-Friendly for Job Posters
+A business owner can just type:
+“Need someone to repaint my shop next Monday around 2pm in Innisfil”
+and GPT will extract:
+task: painting, day: Monday, time: 14:00, location: Innisfil, type: shop, etc.
+
+### 2. Chatbot Interface for Painters
+GPT can chat with the painter:
+
+“You’re already booked at 2pm. Want to suggest 4pm instead?”
+
+“This job is 2.8km from your last job. Accept?”
+
+### 3. Multi-trade Expansion
+GPT can handle jobs beyond painting, like:
+
+“Need help fixing a broken door hinge”
+
+GPT tags that as “handyman > carpentry > repair”
+
 
 
 
