@@ -21,5 +21,23 @@ def find_best_spots(user_day, prefer_free, want_dynamo, data):
             results.append(spot)
     return sorted(results, key=lambda x: x['price_per_hour'])
 
+#the two above functions combined into one:
+
+def find_optimized_spots(user_lat, user_lon, user_day, prefer_free, want_dynamo, data, max_km=1.0):
+    results = []
+    for spot in data:
+        if user_day not in spot['availability'] and "Everyday" not in spot['availability']:
+            continue
+        if prefer_free and not spot['is_free']:
+            continue
+        if want_dynamo and not spot['has_dynamo_unit']:
+            continue
+        dist = geodesic((user_lat, user_lon), (spot['lat'], spot['lon'])).km
+        if dist <= max_km:
+            spot['distance'] = dist
+            results.append(spot)
+    return sorted(results, key=lambda x: (x['price_per_hour'], x['distance']))
+
+
 
 
