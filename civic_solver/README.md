@@ -25,3 +25,5 @@ Make this a bridge between people’s needs and civic systems—powered by AI.
 Use the [CivicSolver](./civic_solver) module to submit your idea.
 Let AI + people generate the solution.
 
+Note: The CivicSolver is under construction. In the meantime, if you wish to contribute to the HumanPlus project, you may reach out via [LinkedIn](https://www.linkedin.com/in/hazmatally/)
+
