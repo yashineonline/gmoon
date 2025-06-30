@@ -78,23 +78,27 @@ pandas
 
 ### 🧠 `utils/match_logic.py`
 ```python
-def find_best_spots(user_day, prefer_free, want_dynamo, data):
+def find_optimized_spots(user_lat, user_lon, user_day, prefer_free, want_dynamo, data, max_km=1.0):
     results = []
     for spot in data:
-        if user_day in spot['availability'] or "Everyday" in spot['availability']:
-            if prefer_free and not spot['is_free']:
-                continue
-            if want_dynamo and not spot['has_dynamo_unit']:
-                continue
+        if user_day not in spot['availability'] and "Everyday" not in spot['availability']:
+            continue
+        if prefer_free and not spot['is_free']:
+            continue
+        if want_dynamo and not spot['has_dynamo_unit']:
+            continue
+        dist = geodesic((user_lat, user_lon), (spot['lat'], spot['lon'])).km
+        if dist <= max_km:
+            spot['distance'] = dist
             results.append(spot)
-    return sorted(results, key=lambda x: x['price_per_hour'])
+    return sorted(results, key=lambda x: (x['price_per_hour'], x['distance']))
 ```
 
 ### 🚀 `app.py`
 ```python
 import streamlit as st
 import json
-from utils.match_logic import find_best_spots
+from utils.match_logic import find_optimized_spots
 
 st.title("🚗 ParkOptimizr")
 
@@ -107,7 +111,9 @@ day = st.sidebar.selectbox("Day of Parking", ["Monday", "Tuesday", "Wednesday", 
 prefer_free = st.sidebar.checkbox("Prefer Free Spots")
 want_dynamo = st.sidebar.checkbox("Willing to pedal for energy credit")
 
-results = find_best_spots(day, prefer_free, want_dynamo, data)
+results = find_optimized_spots(lat, lon, day, prefer_free, want_dynamo, data, max_km)
+
+
 
 st.subheader("Available Spots")
 for r in results:
