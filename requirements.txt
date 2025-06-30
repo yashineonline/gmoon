@@ -1,0 +1,10 @@
+streamlit
+pandas
+geopy
+openai
+requests
+fastapi
+uvicorn
+python-dotenv
+firebase-admin 
+langchain 
