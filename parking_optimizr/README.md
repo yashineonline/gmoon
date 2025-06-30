@@ -146,7 +146,7 @@ pip install -r ../requirements.txt  # Or a local requirements.txt if one exists
 # Step 4: Run the app
 streamlit run app.py
 
-##💡 Note: You must have Python 3.9+ and Streamlit installed. If not:
+## 💡 Note: You must have Python 3.9+ and Streamlit installed. If not:
 
 pip install streamlit
 
