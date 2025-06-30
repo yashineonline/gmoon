@@ -70,16 +70,14 @@ See [roadmap.md](./roadmap.md) for full progression plan.
 
 ---
 
-## 🧪 Want to contribute a local problem?
-Use the [CivicSolver](./civic_solver) module to submit your idea.
-Let AI + people generate the solution.
+
 
 ## 🙌 Built by Yashine Hazmatally Goolam Hossen – Waterloo, Canada
 Join us in building the next chapter of planetary healing.
 
 ---
 
-## 🌐 Contact: https://www.linkedin.com/in/hazmatally/
+## 🌐 Contact: [Responsive on LinkedIn within one week]([./civic_solver](https://www.linkedin.com/in/hazmatally/)
 
 ---
 
@@ -113,56 +111,7 @@ Join us in building the next chapter of planetary healing.
 
 ---
 
-### civic_solver/README.md
-# 🧠 CivicSolver: AI for Daily Life Improvements
 
-## 💡 Purpose
-- Many local issues go unresolved:
-  - Missed mail
-  - Delayed garbage pickup
-  - Parking confusion
-  - Utility overcharges
 
-## 📦 MVP Flow
-1. User inputs complaint or optimization idea
-2. GPT analyzes and suggests solutions
-3. Routes suggestion to relevant org/contact (even if via email template)
 
-## 🔌 Tools
-- GPT-4 API or Langchain agent (for routing logic)
-- City contact directory API or custom dataset
-- Streamlit + form UI
 
-## 🌐 Vision
-Make this a bridge between people’s needs and civic systems—powered by AI.
-
----
-
-### roadmap.md
-# 🛤️ HumanPlus Roadmap
-
-## Phase 1: MVPs (2024–2025 Q2)
-- ✅ FoodCycle AI
-- ✅ JobCycle Agent
-- ✅ CivicPulse
-- ✅ EmojiTalk
-- ✅ ParkOptimizr
-- 🔄 MedicFind (Q2)
-- 🔄 CivicSolver (Q2)
-
-## Phase 2: Core Framework (2025 Q3)
-- Build AI supervisory layer for LLM-supported feedback
-- Create multilingual interface
-- Begin API integrations with city systems
-- Design healing graph for accessibility
-
-## Phase 3: Research Infrastructure (2025–2026)
-- Launch open PhD framework system
-- Collaborate with universities and hospitals
-- Quantum AI modules (quantum walk + brain models)
-
-## Phase 4: Global Activation (2026–2030)
-- Translate platform to 50+ languages
-- Micro-grants to rural contributors
-- Integration with UN SDG projects
-- Become planetary learning + solution network
