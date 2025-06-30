@@ -77,7 +77,7 @@ Join us in building the next chapter of planetary healing.
 
 ---
 
-## 🌐 Contact: [Responsive on LinkedIn within one week]([./civic_solver](https://www.linkedin.com/in/hazmatally/)
+## 🌐 Contact: ([Responsive on LinkedIn within one week](https://www.linkedin.com/in/hazmatally/))
 
 ---
 
