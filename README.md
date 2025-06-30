@@ -56,10 +56,12 @@
 
 ```bash
 git clone https://github.com/your-username/HumanPlus-Platform.git
-cd HumanPlus-Platform
+cd human-plus-platform
 pip install -r requirements.txt
-streamlit run foodcycle_ai/app.py
+streamlit run [mvp_folder]/app.py # e.g. foodcycle_ai/app.py
 ```
+
+Replace [mvp_folder] with the name of the MVP you want to run, e.g. foodcycle_ai, jobcycle_agent, emojitalk_mvp, etc.
 
 ---
 
