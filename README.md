@@ -64,21 +64,18 @@
 
 # 📘 Thesis Vision
 
-## This thesis is not a book. It is a platform. 
-
-It is living, evolving, growing.
-One that evolves, grows, and becomes many theses.
-Join it. Use it. Change it.
-
-## This is not C++. This is Human++.
-
-
 - Become a platform where PhD-level research is **done by the people**
 - Build local projects that solve **global problems**
 - Embed scientific methods, AI governance, and **quantum-era awareness**
 - Accept multilingual, multi-format contributions from all
 - Remain apolitical, non-commercial, but open to sustainable economic models
 - Host "Conscious AI" Lab for brain-based models, art therapy & quantum cognition
+
+## This thesis is not a book. It is a platform. 
+
+It is living, evolving, growing.
+One that evolves, grows, and becomes many theses.
+Join it. Use it. Change it.
 
 ---
 
