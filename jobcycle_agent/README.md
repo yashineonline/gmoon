@@ -3,7 +3,7 @@
 ### 🗂️ Folder Structure
 
 ```
-HumanPlus-Platform/
+human-plus-platform/
 ├── jobcycle_agent/
 │   ├── app.py     
 │   ├── langgraph_config.py
