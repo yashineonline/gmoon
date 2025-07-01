@@ -35,6 +35,23 @@ Helps users locate rare meds, devices, or supplies, and connects them to pharmac
 ---
 ## Extra note
 
-Vector DB + Retriever QA
+### Vector DB + Retriever QA
 
 Ask question about availability of medicine from stored local database
+
+### Chapter: Smart Needs Matching
+
+Medical Product Finder & Rare Needs Optimizer
+
+#### A minimal AI engine to connect people with:
+
+- Rare medications
+
+- Specialty equipment
+
+- Shops willing to stock/sell/donate
+
+- Could also help during crises (natural disasters, war zones, etc.)
+
+- Can also be monetized ethically: shops can opt-in to fulfill needs & earn
+
