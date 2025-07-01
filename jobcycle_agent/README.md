@@ -64,7 +64,7 @@ print(result)
 ---
 
 ## ▶️ How to Run
-See: [docs/how_to_run_all_mvp.md](./docs/how_to_run_all_mvp.md)
+See: [docs/how_to_run_all_mvp.md](../docs/how_to_run_all_mvp.md)
 
 
 
