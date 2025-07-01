@@ -1,0 +1,8 @@
+streamlit
+langchain
+langgraph
+openai
+transformers
+torch
+langchain-google-genai
+groq
