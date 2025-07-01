@@ -1,14 +1,20 @@
 [
   {
-    "title": "Data Analyst",
-    "skills_required": ["Python", "SQL", "Tableau"],
-    "salary_range": "65,000–85,000 CAD",
+    "title": "Solar Panel Installer",
+    "skills_required": ["Electrical Work", "Roof Safety", "Renewable Energy Knowledge"],
+    "salary_range": "45,000–65,000 CAD",
     "type": "Full-time"
   },
   {
-    "title": "Social Worker Assistant",
-    "skills_required": ["Empathy", "Community Support", "Record Keeping"],
-    "salary_range": "40,000–55,000 CAD",
-    "type": "Part-time"
+    "title": "Urban Garden Coordinator",
+    "skills_required": ["Horticulture", "Community Engagement", "Project Management"],
+    "salary_range": "38,000–55,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Energy Efficiency Consultant",
+    "skills_required": ["Building Audits", "Sustainability Analysis", "Client Communication"],
+    "salary_range": "55,000–80,000 CAD",
+    "type": "Full-time"
   }
 ]
