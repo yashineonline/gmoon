@@ -4,5 +4,65 @@
     "skills_required": ["Empathy", "Community Support", "Record Keeping"],
     "salary_range": "40,000–55,000 CAD",
     "type": "Part-time"
+  },
+  {
+    "title": "Community Outreach Worker",
+    "skills_required": ["Public Speaking", "Needs Assessment", "Resource Coordination"],
+    "salary_range": "40,000–55,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Youth Counselor",
+    "skills_required": ["Active Listening", "Crisis Intervention", "Mentoring"],
+    "salary_range": "45,000–60,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Food Bank Coordinator",
+    "skills_required": ["Logistics Management", "Volunteer Coordination", "Inventory Systems"],
+    "salary_range": "42,000–58,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Housing Support Specialist",
+    "skills_required": ["Case Management", "Tenant Rights Knowledge", "Conflict Resolution"],
+    "salary_range": "48,000–65,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "ESL Instructor for Refugees",
+    "skills_required": ["Curriculum Development", "Cross-Cultural Communication", "Patience"],
+    "salary_range": "50,000–70,000 CAD",
+    "type": "Contract"
+  },
+  {
+    "title": "Disability Advocate",
+    "skills_required": ["Policy Knowledge", "Accessibility Audits", "Public Education"],
+    "salary_range": "52,000–75,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Indigenous Community Liaison",
+    "skills_required": ["Cultural Sensitivity", "Grant Writing", "Community Mediation"],
+    "salary_range": "55,000–80,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Senior Care Companion",
+    "skills_required": ["Elderly Care", "First Aid Certification", "Compassion"],
+    "salary_range": "35,000–50,000 CAD",
+    "type": "Part-time"
+  },
+  {
+    "title": "Mental Health Peer Support Worker",
+    "skills_required": ["Lived Experience", "De-escalation Techniques", "Group Facilitation"],
+    "salary_range": "45,000–62,000 CAD",
+    "type": "Full-time"
+  },
+  {
+    "title": "Literacy Program Coordinator",
+    "skills_required": ["Teaching Adults", "Program Evaluation", "Partnership Building"],
+    "salary_range": "50,000–68,000 CAD",
+    "type": "Full-time"
   }
 ]
