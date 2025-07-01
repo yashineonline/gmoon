@@ -5,5 +5,124 @@
     "salary_range": "65,000–85,000 CAD",
     "type": "Full-time"
   },
-
+  {
+    "title": "Frontend Developer (React)",
+    "skills_required": ["JavaScript", "React.js", "CSS", "Responsive Design"],
+    "salary_range": "70,000–110,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Backend Engineer (Python)",
+    "skills_required": ["Python", "Django/Flask", "REST APIs", "Database Design"],
+    "salary_range": "80,000–130,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "DevOps Engineer",
+    "skills_required": ["AWS/Azure", "Docker", "CI/CD Pipelines", "Infrastructure as Code"],
+    "salary_range": "90,000–140,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Data Scientist",
+    "skills_required": ["Python", "Machine Learning", "Pandas", "Data Visualization"],
+    "salary_range": "85,000–135,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "skills_required": ["Network Security", "SIEM Tools", "Threat Analysis", "Compliance"],
+    "salary_range": "75,000–125,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "UX/UI Designer",
+    "skills_required": ["Figma/Sketch", "User Research", "Prototyping", "Accessibility"],
+    "salary_range": "65,000–100,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Cloud Architect",
+    "skills_required": ["Cloud Migration", "Microservices", "Kubernetes", "Security"],
+    "salary_range": "110,000–170,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "AI/ML Engineer",
+    "skills_required": ["TensorFlow/PyTorch", "NLP", "Model Deployment", "Statistics"],
+    "salary_range": "95,000–150,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Blockchain Developer",
+    "skills_required": ["Solidity", "Smart Contracts", "Web3.js", "Cryptography"],
+    "salary_range": "100,000–160,000",
+    "type": "Contract"
+  },
+  {
+    "title": "Technical Writer",
+    "skills_required": ["Documentation", "Markdown", "API Guides", "Simplification"],
+    "salary_range": "60,000–90,000",
+    "type": "Remote"
+  },
+  {
+    "title": "QA Automation Engineer",
+    "skills_required": ["Selenium", "Test Frameworks", "Scripting", "Bug Tracking"],
+    "salary_range": "70,000–115,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Product Manager (Tech)",
+    "skills_required": ["Agile Methodologies", "Roadmapping", "Stakeholder Management", "Data Analysis"],
+    "salary_range": "90,000–140,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "AR/VR Developer",
+    "skills_required": ["Unity/Unreal", "3D Modeling", "Spatial Computing", "C#"],
+    "salary_range": "80,000–130,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Data Engineer",
+    "skills_required": ["SQL/NoSQL", "ETL Pipelines", "Spark", "Data Warehousing"],
+    "salary_range": "85,000–135,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Site Reliability Engineer (SRE)",
+    "skills_required": ["Monitoring Tools", "Incident Response", "Scalability", "Scripting"],
+    "salary_range": "95,000–145,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Mobile Developer (Flutter)",
+    "skills_required": ["Dart", "Flutter Framework", "Firebase", "Cross-platform"],
+    "salary_range": "75,000–120,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "IT Support Specialist",
+    "skills_required": ["Troubleshooting", "Helpdesk Software", "Networking", "Customer Service"],
+    "salary_range": "50,000–80,000",
+    "type": "Hybrid"
+  },
+  {
+    "title": "Embedded Systems Engineer",
+    "skills_required": ["C/C++", "RTOS", "Microcontrollers", "Hardware Debugging"],
+    "salary_range": "85,000–130,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Salesforce Developer",
+    "skills_required": ["Apex", "Lightning Components", "CRM Customization", "Integration"],
+    "salary_range": "80,000–125,000",
+    "type": "Full-time"
+  },
+  {
+    "title": "Quantum Computing Researcher",
+    "skills_required": ["Quantum Algorithms", "Qiskit/Cirq", "Linear Algebra", "Research"],
+    "salary_range": "100,000–160,000",
+    "type": "Full-time"
+  }
 ]
