@@ -2,7 +2,9 @@
 # 🧠 CivicSolver: AI for Daily Life Improvements
 
 ---
+
 Accepts local complaints or ideas → GPT analyzes them → suggests and routes realistic, actionable fixes to city systems, organizations, or automated workflows.
+
 ---
 
 ## 💡 Purpose
