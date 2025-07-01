@@ -44,5 +44,12 @@ response = agent.run("What kind of job fits someone skilled in carpentry, drivin
 
 ---
 
+### What is missing:  
+
+- Build the dataset matching logic
+
+- Add Firebase backend for job tracking
+
+- Proceed to build the resume parser into the UI
 
 
