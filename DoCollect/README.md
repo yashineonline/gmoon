@@ -80,6 +80,7 @@ if st.button("Submit"):
 ## 📦 requirements.txt
 ```
 streamlit
+pyrebase4
 ```
 
 ---
