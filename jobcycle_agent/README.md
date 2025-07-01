@@ -1,6 +1,33 @@
 # jobcycle_agent/README.md
 
 ---
+## 🧠 Agentic Workflow (LangGraph + GPT)
+This module uses LangGraph to create a multi-step agent for assigning job roles based on a user's profile.
+
+## 🧩 Workflow Steps
+Collect Profile → Accepts raw user description
+
+Extract Skills → Uses GPT to extract skill keywords
+
+Match Jobs → GPT suggests 3 suitable job roles with reasoning
+
+---
+### 🔧 A simple LangGraph node flow
+
+```python
+[Start]
+   ↓
+[Collect Profile Info]
+   ↓
+[LangChain Agent: Skill Extractor]
+   ↓
+[LangChain Agent: Job Matcher]
+   ↓
+[Output: Job Suggestions + Links + Score]
+```
+
+---
+
 
 ### 🗂️ Folder Structure
 
@@ -17,21 +44,6 @@ human-plus-platform/
 ---
 
 
-### 🔧 A simple LangGraph node flow
-
-```python
-[Start]
-   ↓
-[Collect Profile Info]
-   ↓
-[LangChain Agent: Skill Extractor]
-   ↓
-[LangChain Agent: Job Matcher]
-   ↓
-[Output: Job Suggestions + Links + Score]
-```
-
----
 
 ## 📍 Example Use Case
 
