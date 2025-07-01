@@ -1,6 +1,12 @@
 ### medicfind/README.md
 # 🩺 MedicFind: Rare Medical Needs Matcher
 
+---
+
+Helps users locate rare meds, devices, or supplies, and connects them to pharmacies, NGOs, and volunteers. Future-ready for chronic care, donor pools, and hospital networks.
+
+---
+
 ## 💡 Problem
 - People struggle to find rare meds, devices, and chronic care tools
 - Pharmacies lack discoverability
