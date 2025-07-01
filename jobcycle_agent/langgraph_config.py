@@ -2,6 +2,7 @@
 
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, List
+from agentic_workflow import collect_profile, extract_skills, match_jobs
 
 # Define the state schema
 class JobState(TypedDict):
@@ -23,14 +24,3 @@ def build_job_graph():
     builder.add_edge("match_jobs", END)
 
     return builder.compile()
-
-# Placeholder nodes (we'll implement them in workflow file)
-
-def collect_profile(state: JobState) -> JobState:
-    return state
-
-def extract_skills(state: JobState) -> JobState:
-    return state
-
-def match_jobs(state: JobState) -> JobState:
-    return state
