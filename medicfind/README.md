@@ -41,7 +41,7 @@ Ask question about availability of medicine from stored local database
 
 ### Chapter: Smart Needs Matching
 
-Medical Product Finder & Rare Needs Optimizer
+Medical Product Finder & Rare Needs (non medical) Optimizer
 
 #### A minimal AI engine to connect people with:
 
