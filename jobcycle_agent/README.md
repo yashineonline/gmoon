@@ -63,6 +63,14 @@ print(result)
 
 ---
 
+## ▶️ How to Run
+See: [docs/how_to_run_all_mvp.md](./docs/how_to_run_all_mvp.md)
+
+
+
+
+---
+
 ## Full Feature Checklist for JobCycle Agent
 
 #### 1. Build the dataset matching logic
