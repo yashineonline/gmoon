@@ -55,6 +55,18 @@ response = agent.run("What kind of job fits someone skilled in carpentry, drivin
 #### 3. Build the resume parser into the UI
 - Add a resume upload feature and parse resumes for skills and experience
 
+📄 Code for Resume Upload (PDF → Text)
+```python
+import pdfplumber
+
+uploaded_file = st.file_uploader("Upload resume (PDF)", type=["pdf"])
+if uploaded_file:
+    with pdfplumber.open(uploaded_file) as pdf:
+        text = "\n".join(page.extract_text() for page in pdf.pages)
+    st.text_area("Parsed Resume", value=text[:2000])
+```
+
+
 #### 4. Scoring & Ranking Job Matches
 - Compare user profile skills against each job in the dataset
 - Assign a score based on skill match percentage
@@ -91,4 +103,17 @@ response = agent.run("What kind of job fits someone skilled in carpentry, drivin
 #### 12. Deploy Online
 - Use Streamlit Community Cloud or Hugging Face Spaces
 - Include public demo link in README
+
+## 🗂️ Add-ons
+
+### 🌍 Multi-language Support
+```python
+from langchain.tools.translate import GoogleTranslateTool
+```
+
+- Add a language switch dropdown to app.py.
+- Detect input language → translate → process.
+
+
+
 
