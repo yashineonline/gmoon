@@ -82,6 +82,18 @@ Join it. Use it. Change it.
 
 ---
 
+## ✨ Endorsements & Context
+
+- Inspired by UNESCO Quantum Year 2025
+
+- Addresses UN SDGs: Zero Hunger, Quality Education, Decent Work
+
+- Built from Waterloo, Canada — ready for the world
+  (Some concepts inspired by Walmart and other areas in Waterloo)
+
+
+
+
 ## 📍 Deployment Guide
 
 ```bash
@@ -114,18 +126,34 @@ See [roadmap.md](./roadmap.md) for full progression plan.
 
 ---
 
+## 📫 Contact & Collaborate
+If you're a:
 
+- City official
 
-## 🙌 Built by Yashine Hazmatally Goolam Hossen – Waterloo, Canada
-Join us in building the next chapter of planetary learning and healing.
+- Student group
+
+- Developer
+
+- Researcher
+
+- Volunteer
+
+- Policy maker
+
+- Corporation
+
+Reach out to partner, contribute, or support a local pilot.
+
+## 🌐 Contact: [LinkedIn](https://www.linkedin.com/in/hazmatally/)
+
+- Responsive within one week
 
 ---
 
-## 🌐 Contact: [Responsive on LinkedIn within one week](https://www.linkedin.com/in/hazmatally/)
+🙌 Built by Yashine Hazmatally Goolam Hossen – Waterloo, Canada
 
----
-
-
+### Join us in building the next chapter of planetary learning and healing.
 
 
 
