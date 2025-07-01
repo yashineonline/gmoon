@@ -1,4 +1,6 @@
+# jobcycle_agent/README.md
 
+---
 
 ### 🗂️ Folder Structure
 
@@ -11,6 +13,9 @@ human-plus-platform/
 │   └── requirements.txt
 │   └── README.md
 ```
+
+---
+
 
 ### 🔧 A simple LangGraph node flow
 
@@ -56,7 +61,7 @@ result = graph.invoke(initial_state)
 print(result)
 ```
 
-
+---
 
 ## Full Feature Checklist for JobCycle Agent
 
@@ -117,6 +122,9 @@ if uploaded_file:
 #### 12. Deploy Online
 - Use Streamlit Community Cloud or Hugging Face Spaces
 - Include public demo link in README
+
+---
+
 
 ## 🗂️ Add-ons
 
