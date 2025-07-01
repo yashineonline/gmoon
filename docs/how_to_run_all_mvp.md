@@ -37,6 +37,17 @@ streamlit run app.py
 ## 🧠 JobCycle Agent
 ```bash
 cd jobcycle_agent
+pip install -r requirements.txt
+
+# If using OpenAI:
+export OPENAI_API_KEY=your_key
+
+# If using Groq:
+export GROQ_API_KEY=your_key
+
+# If using Gemini:
+export GOOGLE_API_KEY=your_key
+
 streamlit run app.py
 ```
 
