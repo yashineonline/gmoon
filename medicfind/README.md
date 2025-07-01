@@ -27,3 +27,8 @@
 - Hospital admin module
 
 ---
+## Extra note
+
+Vector DB + Retriever QA
+
+Ask question about availability of medicine from stored local database
