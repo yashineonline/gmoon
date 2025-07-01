@@ -62,7 +62,16 @@
 
 ---
 
-## 📘 Thesis Vision
+# 📘 Thesis Vision
+
+## This thesis is not a book. It is a platform. 
+
+It is living, evolving, growing.
+One that evolves, grows, and becomes many theses.
+Join it. Use it. Change it.
+
+## This is not C++. This is Human++.
+
 
 - Become a platform where PhD-level research is **done by the people**
 - Build local projects that solve **global problems**
