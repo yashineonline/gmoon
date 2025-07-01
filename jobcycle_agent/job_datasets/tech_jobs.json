@@ -5,10 +5,5 @@
     "salary_range": "65,000–85,000 CAD",
     "type": "Full-time"
   },
-  {
-    "title": "Social Worker Assistant",
-    "skills_required": ["Empathy", "Community Support", "Record Keeping"],
-    "salary_range": "40,000–55,000 CAD",
-    "type": "Part-time"
-  }
+
 ]
