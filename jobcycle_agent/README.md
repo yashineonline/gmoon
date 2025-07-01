@@ -156,6 +156,116 @@ from langchain.tools.translate import GoogleTranslateTool
 - Add a language switch dropdown to app.py.
 - Detect input language → translate → process.
 
+# Extra notes to merge with above
+
+### jobcycle_agent/app.py
+import streamlit as st
+from agents.interview_agent import run_interview
+from agents.job_matcher import match_jobs
+from utils.test_generator import generate_test
+
+st.title("👥 JobCycle Agent: Unlock Your Next Step")
+st.write("AI-powered job assistant for everyone — even if you feel unemployable.")
+
+if 'profile' not in st.session_state:
+    st.session_state.profile = {}
+
+with st.form("job_form"):
+    name = st.text_input("Your Name")
+    background = st.text_area("Tell us your story / experience / interests")
+    time = st.selectbox("How many hours/week can you commit?", ["<5", "5-10", "10-20", "Full-time"])
+    submit = st.form_submit_button("Find Jobs")
+
+if submit:
+    st.session_state.profile = {
+        "name": name,
+        "background": background,
+        "availability": time
+    }
+    job_matches = match_jobs(st.session_state.profile)
+    test = generate_test(job_matches)
+
+    st.subheader("🧠 Suggested Jobs")
+    st.markdown(job_matches)
+
+    st.subheader("📋 Mini-Suitability Test")
+    st.markdown(test)
+
+    st.download_button("Download Job Plan", f"Name: {name}\nJobs:\n{job_matches}\nTest:\n{test}", "jobcycle_plan.txt")
+
+
+### jobcycle_agent/agents/interview_agent.py
+def run_interview():
+    # Placeholder: Future conversational agent
+    return "(GPT-powered interview in development)"
+
+
+### jobcycle_agent/agents/job_matcher.py
+def match_jobs(profile):
+    bg = profile.get("background", "")
+    if "drive" in bg.lower():
+        return "- Local Delivery (2-4h/day)\n- Uber Helper / Package Runner"
+    elif "cook" in bg.lower() or "food" in bg.lower():
+        return "- Community Kitchen Assistant\n- Food Prep Volunteer"
+    elif "student" in bg.lower():
+        return "- Tutoring Young Learners\n- Tech Support at Senior Centre"
+    else:
+        return "- Street Surveyor\n- Waste Sorting + Impact Tracking\n- Food Rescue Agent"
+
+
+### jobcycle_agent/utils/test_generator.py
+def generate_test(jobs):
+    if "Delivery" in jobs:
+        return "**Task:** Draft a polite message to send to a customer if their package is delayed by 10 minutes."
+    if "Tutor" in jobs:
+        return "**Task:** Explain what a fraction is to a 9-year-old in 3 sentences."
+    return "**Task:** Suggest 2 ways to reduce food waste at a public event."
+
+
+### jobcycle_agent/requirements.txt
+streamlit
+
+
+### jobcycle_agent/README.md
+# JobCycle Agent: GPT-Powered Job Matchmaker for Everyone
+
+## 🌟 Mission
+Help those who feel stuck or overlooked rediscover work, purpose, and potential through AI.
+
+## 🧰 What It Does
+- Simple profile form
+- GPT-based job match recommendations
+- Context-aware job test
+- Exports "Job Plan" to share, build on, or take to an NGO/job center
+
+## 💼 Sample Jobs Suggested
+- Delivery helper
+- Food bank assistant
+- Teaching support
+- Elder tech aid
+- Street data volunteer
+
+## 🚀 Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 🤖 Future Additions
+- Full interview agent
+- Location-based matching
+- Integration with FoodCycle AI
+- Reputation tracker + microcredentials
+
+## ❤️ Designed For
+- Refugees
+- Low-income job seekers
+- Students & retirees
+- Anyone who thinks "I have nothing to offer"
+
+
+
+
 
 
 
