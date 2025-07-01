@@ -44,6 +44,20 @@ response = agent.run("What kind of job fits someone skilled in carpentry, drivin
 
 ---
 
+## Testing 
+```python
+from langgraph_config import build_job_graph
+
+graph = build_job_graph()
+initial_state = {
+    "profile_data": "I have 5 years experience as an electrician and also did part-time carpentry and delivery driving."
+}
+result = graph.invoke(initial_state)
+print(result)
+```
+
+
+
 ## Full Feature Checklist for JobCycle Agent
 
 #### 1. Build the dataset matching logic
