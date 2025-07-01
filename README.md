@@ -16,6 +16,7 @@
 
 
 ### ✅ 2. [JobCycle Agent](./jobcycle_agent)
+(Career-routing AI)
 - Assigns jobs to all applicants, even those overlooked by traditional systems
 - Interacts with users to build profile → assign micro-jobs → grow ecosystem
 - Uses LangChain agents for skill inference, CV scoring, and job fit routing
@@ -37,6 +38,7 @@
 - Now supports future integration with smart city APIs
 
 ### 🔄 6. [MedicFind](./medicfind)
+(Intelligent symptom/medicine assistant)
 - Lets users search for rare medications or supplies
 - Connects them with nearby pharmacies, donors, NGOs
 - Includes email alert + real-time scraping support
@@ -44,11 +46,13 @@
 - API-ready for crisis, hospital, and chronic care systems
 
 ### 🔄 7. [CivicSolver](./civic_solver)
+(City solution generator)
 - Crowdsources inefficiencies like parcel delivery, garbage overflow, unsafe roads
 - Uses GPT to suggest a solution → routes it to relevant org or service
 - Generates municipal proposal letters automatically
 
 ### ✅ 8. [PainterConnect](./painterconnect)
+ (Service availability agent)
 - Helps local service workers get jobs via QR scan + scheduling
 - Notification + calendar sync, privacy-aware messaging
 
