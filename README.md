@@ -8,11 +8,13 @@
 
 ## 📦 MVP Modules
 
-### ✅ 1. [FoodCycle AI](./foodcycle_ai)
+### ✅ 1. [FoodCycle AI](./foodcycle ai)
 - Redistributes surplus food to hungry communities
 - Helps stores save space, power, and carbon footprint
 - Creates local delivery and coordination jobs
 - Updated with LangGraph for intelligent matching and task workflows
+
+### ✅ 4. [CivicPulse](./civicpulse)
 
 
 ### ✅ 2. [JobCycle Agent](./jobcycle_agent)
