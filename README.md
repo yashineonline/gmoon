@@ -20,7 +20,7 @@
 - Interacts with users to build profile → assign micro-jobs → grow ecosystem
 - Uses LangChain agents for skill inference, CV scoring, and job fit routing
 
-### ✅ 3. [EmojiTalk](./emojitalk_mvp)
+### ✅ 3. [EmojiTalk](./emojitalk)
 - Icon-based communication tool for the blind, mute, deaf, and paralyzed
 - Enables basic interaction via emojis, speech, and text
 - Local NLP support in 10+ languages using spaCy + HuggingFace
