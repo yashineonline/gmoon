@@ -65,7 +65,7 @@
 
 # 📘 Thesis Vision
 
-- Become a platform where PhD-level research is **done by the people**
+- Become a platform where eventually PhD-level research is **done by the people**
 - Build local projects that solve **global problems**
 - Embed scientific methods, AI governance, and **quantum-era awareness**
 - Accept multilingual, multi-format contributions from all
