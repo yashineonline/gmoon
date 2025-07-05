@@ -56,9 +56,11 @@
 - Helps local service workers get jobs via QR scan + scheduling
 - Notification + calendar sync, privacy-aware messaging
 
-### ✅ 9. [DocCollect](./doccollect_mvp)
+### ✅ 9. [DoCollect](./docollect)
 - Upload documents, links, videos, audio, or text
 - Email forwarding and (optionally) Firebase support
+
+
 
 ---
 
