@@ -8,7 +8,7 @@
 
 ## 📦 MVP Modules
 
-### ✅ 1. [FoodCycle AI](./foodcycle)
+### ✅ 1. [FoodCycle AI](./FoodCycle)
 - Redistributes surplus food to hungry communities
 - Helps stores save space, power, and carbon footprint
 - Creates local delivery and coordination jobs
