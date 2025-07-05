@@ -1,8 +1,8 @@
-### human-plus-platform/README.md
+### gmoon/README.md
 
-# 🌍 HumanPlus Platform: A Living Thesis to Regenerate the World
+# 🌍 Gmoon: A Living Thesis to Regenerate the World
 
-> A unified platform of community-powered AI solutions tackling food insecurity, unemployment, accessibility, sustainable mobility, civic resilience, and quantum-age education. 
+> A unified platform of community-powered AI solutions tackling food insecurity, unemployment, accessibility, sustainable mobility, civic resilience, and quantum-age education. The name "gmoon" is the English-phonetic spelling of "dimun," which means "human" in Mauritian Creole, one of the native languages of the repository owner.
 
 ---
 
