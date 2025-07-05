@@ -1,7 +1,9 @@
-### doccollect_mvp/README.md
-# 📥 DocCollect MVP
+### docollect/README.md
+# 📥 DoCollect MVP
 
 > A simple public-facing submission portal for collecting community documentation, media, or links.
+
+
 
 ---
 
