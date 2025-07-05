@@ -50,12 +50,12 @@
 - Uses GPT to suggest a solution → routes it to relevant org or service
 - Generates municipal proposal letters automatically
 
-### ✅ 8. [PainterConnect](./painterconnect)
+### ✅ 8. [PainterConnect](./PainterConnect)
  (Service availability agent)
 - Helps local service workers get jobs via QR scan + scheduling
 - Notification + calendar sync, privacy-aware messaging
 
-### ✅ 9. [DoCollect](./docollect)
+### ✅ 9. [DoCollect](./DoCollect)
 - Upload documents, links, videos, audio, or text
 - Email forwarding and (optionally) Firebase support
 
