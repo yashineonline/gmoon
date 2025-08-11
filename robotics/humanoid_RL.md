@@ -1,4 +1,4 @@
-# Humanoid RL Mini Project
+# Humanoid RL Project
 
 ## Overview
 
@@ -7,6 +7,30 @@ Minimal scaffold combining Isaac Gym simulation, PyTorch deep RL (PPO), and ROS2
 ---
 
 ### Directory Tree
+
+```
+humanoid-rl-research/
+│
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── requirements.txt
+│
+├── src/
+│   ├── irreversible_rl_simulations.py
+│   ├── agent_utils.py
+│   ├── config.yaml
+│
+├── data/
+│   └── logs/
+├── notebooks/
+│   └── analysis.ipynb
+│
+├── results/
+│   └── plots/
+```
+
+---
 
 ```
 humanoid_rl/
