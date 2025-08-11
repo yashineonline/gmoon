@@ -6,6 +6,65 @@ Minimal scaffold combining Isaac Gym simulation, PyTorch deep RL (PPO), and ROS2
 
 ---
 
+# Humanoid RL Research: Irreversible and Novelty-Based Learning Architectures
+
+This repository contains simulations and research experiments for a novel reinforcement learning framework inspired by brain plasticity, irreversible quantum walks, and causal attention. The goal is to enable agents—particularly humanoid robots—to learn adaptively without revisiting obsolete behaviors.
+
+## 🔍 Highlights
+
+- **MiniGrid with Novelty Reward**: Rewards shaped by trajectory novelty and irreversible memory.
+- **MuJoCo Hopper**: Suppression-based continuous control with evolving policy shifts.
+- **Isaac Gym Humanoid (WIP)**: Transformer policy using forward-planning memory, under irreversible reward shaping.
+
+## 🧠 Core Concepts
+
+- **Irreversible Policy Update**: Repeated actions in similar states are suppressed over time.
+- **Trajectory Novelty**: Rewards include a penalty for trajectory similarity to prior paths.
+- **Causal Planning**: Isaac Gym prototype uses transformer agents that attend to suppressed future state memories.
+
+## 💻 Getting Started
+
+```bash
+git clone https://github.com/yourhandle/humanoid-rl-research
+cd humanoid-rl-research
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run Experiments
+
+```bash
+python src/irreversible_rl_simulations.py  
+# Runs MiniGrid
+# For MuJoCo:
+# Uncomment train_mujoco() in the script
+```
+
+---
+
+## 📝 Citation
+Please cite our upcoming publication or reference the repository directly:
+
+```bibtex
+@misc{irreversible_rl,
+  title={Irreversible Reinforcement Learning for Adaptive Control},
+  author={Goolam Hossen, Yashine},
+  year={2025},
+  note={https://github.com/yourhandle/humanoid-rl-research}
+}
+```
+
+---
+
+
+## 🧪 Acknowledgements
+Developed as part of an independent doctoral-level research project combining quantum information, reinforcement learning, and humanoid robotics.
+
+
+
+---
+
 ### Directory Tree
 
 ```
