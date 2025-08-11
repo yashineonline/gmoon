@@ -17,18 +17,22 @@ humanoid-rl-research/
 ├── requirements.txt
 │
 ├── src/
-│   ├── irreversible_rl_simulations.py
-│   ├── agent_utils.py
-│   ├── config.yaml
+│   ├── irreversible_rl_simulations.py  # All simulations
+│   ├── agent_utils.py                  # Optional modular helpers
+│   ├── config.yaml                     # Configs if used
 │
-├── data/
-│   └── logs/
 ├── notebooks/
-│   └── analysis.ipynb
+│   └── results_analysis.ipynb          # Plots, analysis
 │
 ├── results/
-│   └── plots/
+│   └── minigrid/
+│   └── mujoco/
+│   └── isaac/
+│
+└── gifs/
+    └── demo.gif
 ```
+
 
 ---
 
