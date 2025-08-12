@@ -77,6 +77,7 @@ humanoid-rl-research/
 │
 ├── src/
 │   ├── irreversible_rl_simulations.py  # All simulations
+│   ├── train_isaac_humanoid.py  
 │   ├── agent_utils.py                  # Optional modular helpers
 │   ├── config.yaml                     # Configs if used
 │
@@ -248,6 +249,27 @@ if __name__ == '__main__':
    source ros2_ws/install/setup.bash
    ros2 run humanoid_control control_node
    ```
+
+---
+
+   ```bash
+python train_isaac_humanoid.py
+```
+
+## 🧪 What It Does:
+Loads HumanoidTask with 2048 parallel agents
+
+Applies transformer policy on 8-step observation sequences
+
+Injects novelty suppression based on visit frequency of state patterns
+
+Prints reward every 100 steps
+
+---
+
+
+
+
 
 ---
 
