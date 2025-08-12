@@ -300,7 +300,7 @@ Tracks suppression-based policy modulation per state-action
 
 ---
 
-## ✅ Simulation 6 added: Self-Supervised Representation Learning + Irreversible RL
+## ✅ Simulation 6: Self-Supervised Representation Learning + Irreversible RL
 
 🔍 What it does:
 Learns compact latent states via contrastive loss (anchor, positive, negative)
@@ -323,7 +323,7 @@ Self-supervision
 
 ---
 
-## ✅ Simulation 7 added: Inverse RL for Implicit Suppression
+## ✅ Simulation 7: Inverse RL for Implicit Suppression
 
 🔍 What it does:
 Uses expert trajectories to train a reward model via a discriminator
@@ -334,7 +334,7 @@ No explicit suppression — learned via imitation from demos
 
 ---
 
-## ✅ Simulation 8 added: Multi-Agent Irreversible RL
+## ✅ Simulation 8: Multi-Agent Irreversible RL
 
 🧠 What it does:
 Trains 3 agents in parallel
@@ -365,8 +365,25 @@ The 8 simulations cover the full RL research suite:
 
 ---
 
-## Simulation 9 (attention-based memory embedding)
+## Simulation 9: attention-based memory embedding
 
+Simulation 9: Attention-Based Memory Embedding is a natural next step to enhance how the RL agent models its irreversible state visits. Instead of simple visit counts for suppression, it would learn a differentiable memory embedding via attention mechanisms to better generalize irreversibility across similar states and actions.
+
+Here’s what that entails:
+
+Replace the explicit visit count dictionary with a learned embedding memory.
+
+Use attention layers (e.g., Transformer-style self-attention) to encode past visited states/actions into continuous embeddings.
+
+Condition the policy on these embeddings to modulate action probabilities, suppressing repeating or reversing behaviors more smoothly.
+
+Train end-to-end via policy gradient with this memory module jointly optimized.
+
+---
+
+The code replaces simple visit count suppression with a learned attention memory embedding that generalizes irreversibility to similar states/actions. The policy conditions on current observation plus aggregated memory embedding for adaptive suppression.
+
+---
 
 
 
