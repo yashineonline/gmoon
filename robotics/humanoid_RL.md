@@ -77,7 +77,14 @@ humanoid-rl-research/
 │
 ├── src/
 │   ├── irreversible_rl_simulations.py  # All simulations
-│   ├── train_isaac_humanoid.py  
+│   ├── train_isaac_humanoid.py
+│   ├── ablation_experiments.py         # Simulation 4
+│   ├── simulation_5_meta_curriculum.py
+│   ├── simulation_6_self_supervised.py
+│   ├── simulation_7_inverse_rl.py
+│   ├── simulation_8_multi_agent.py
+│   ├──
+│   ├── 
 │   ├── agent_utils.py                  # Optional modular helpers
 │   ├── config.yaml                     # Configs if used
 │
@@ -266,6 +273,99 @@ Injects novelty suppression based on visit frequency of state patterns
 Prints reward every 100 steps
 
 ---
+
+## ✅ Simulation 4 (Ablation Experiment) 
+
+🧪 Purpose:
+This script compares:
+
+Baseline PPO-style agent
+
+Irreversible suppression agent
+
+On the same MiniGrid task, and logs comparative reward performance.
+
+---
+
+## ✅ Simulation 5: Meta-RL with Curriculum + Irreversibility
+
+🧪 What it does:
+Wraps 3 MiniGrid tasks in increasing difficulty
+
+Trains an irreversible Meta-RL agent across tasks
+
+Increases environment difficulty every 50 episodes
+
+Tracks suppression-based policy modulation per state-action
+
+---
+
+## ✅ Simulation 6 added: Self-Supervised Representation Learning + Irreversible RL
+
+🔍 What it does:
+Learns compact latent states via contrastive loss (anchor, positive, negative)
+
+Uses frozen encoder for RL with suppression-based action modulation
+
+Entire setup done in MiniGrid
+
+---
+
+A novel 6-simulation suite combining:
+
+Novelty-driven RL
+
+Transformer policies
+
+Curriculum learning
+
+Self-supervision
+
+---
+
+## ✅ Simulation 7 added: Inverse RL for Implicit Suppression
+
+🔍 What it does:
+Uses expert trajectories to train a reward model via a discriminator
+
+Learns a policy to match expert behavior through reward inference
+
+No explicit suppression — learned via imitation from demos
+
+---
+
+## ✅ Simulation 8 added: Multi-Agent Irreversible RL
+
+🧠 What it does:
+Trains 3 agents in parallel
+
+Uses shared policy network with agent-specific suppression memory
+
+Encourages distributed irreversible exploration patterns
+
+---
+
+The 8 simulations cover the full RL research suite:
+
+1. MiniGrid with novelty + suppression
+
+2. MuJoCo continuous control with suppression
+
+3. Isaac Gym humanoid transformer policy
+
+4. Ablation experiments
+
+5. Meta-RL curriculum learning
+
+6. Self-supervised latent learning
+
+7. Inverse RL for implicit suppression
+
+8. Multi-agent irreversible RL
+
+---
+
+## Simulation 9 (attention-based memory embedding)
 
 
 
